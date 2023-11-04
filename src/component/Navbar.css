@@ -1,0 +1,37 @@
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 80px;
+    background-color: rgb(6, 80, 109);
+    border: 3px  solid white;
+}
+
+.nav-menu
+{
+    display: flex;
+}
+
+
+.nav-menu li
+{
+    padding: 0 1.2rem;
+}
+
+.nav-menu li a{
+
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+
+.nav-menu li a:hover{
+
+    transition: .2;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: yellow;
+}

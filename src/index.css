@@ -1,0 +1,54 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit",sans-serif;
+}
+
+
+body
+{
+  background-color: rgb(42, 48, 48);
+}
+
+
+ul
+{
+  list-style-type: none;
+}
+
+.btn
+{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: rgb(248,217,15);
+  color: #222;
+  border:1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.btn-light{
+
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover
+{
+  background-color: rgba(255,255,0.2);
+
+  color: #fff;
+
+  transition: .3s;
+}
+
+
+h1,h2,h3,p,a
+{
+  color: white;
+  text-decoration: none;
+}
